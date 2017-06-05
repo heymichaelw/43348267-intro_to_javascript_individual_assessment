@@ -48,7 +48,8 @@ var age = today - born;
 
 // A:
 
-var answer = givenName + " is " + age + " years old";
+var sentence = givenName + " is " + age + " years old";
+var answer = console.log(sentence);
 
 
 // 8.
@@ -147,7 +148,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A: True!
+// A: False!  (corrected from True - in this example, x is undefined, so this will be false)
 
 
 // 22.
